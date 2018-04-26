@@ -51,8 +51,8 @@ To ilustrate how `mmap_min_addr` works following vulnerable kernel module will b
 
 Module vulnerable to `NULL pointer dereference`:
 
-````
-cat > null-deref-mod.c <<EOF
+```
+cat > null-deref-mod.c <<'EOF'
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/fs.h>
@@ -141,7 +141,7 @@ PoC exploit code:
 
 
 ```
-cat > null-deref-exp.c <<EOF
+cat > null-deref-exp.c <<'EOF'
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
@@ -249,7 +249,7 @@ Makefile:
 
 
 ```
-cat > Makefile <<EOF
+cat > Makefile <<'EOF'
 obj-m += null-deref.o
 
 CC=$HOME/SEC-RES/gcc7/install/bin/gcc
