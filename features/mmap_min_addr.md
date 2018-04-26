@@ -136,7 +136,9 @@ MODULE_LICENSE("GPL");
 EOF
 ```
 
+
 PoC exploit code:
+
 
 ```
 cat > null-deref-exp.c <<EOF
@@ -241,6 +243,10 @@ int main()
 }
 EOF
 ```
+
+
+Makefile:
+
 
 ```
 cat > Makefile <<EOF
