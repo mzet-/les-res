@@ -5,9 +5,9 @@
 
 Available from kernel version: `3.7`
 
-For kernels `3.0+` SMEP support is turned on by default if underlying CPU supports it.
+For kernels `3.7+` SMAP support is turned on by default if underlying CPU supports it.
 
-To verify if SMEP is turned on, one can run: `grep -i smep /proc/cpuinfo`.
+To verify if SMAP is turned on, one can run: `grep -i smap /proc/cpuinfo`.
 
 Excerpt from [Intel® 64 and IA-32 Architectures Software Developer Manuals](https://software.intel.com/en-us/articles/intel-sdm):
 
