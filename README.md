@@ -1,2 +1,2 @@
 # les-res
-Additional resources and references fo linux-exploit-suggester.sh
+Additional resources and references for [linux-exploit-suggester.sh](https://github.com/mzet-/linux-exploit-suggester)
