@@ -5,6 +5,6 @@ Additional resources and references for [linux-exploit-suggester.sh](https://git
 
 [drills](drills/) - Collection of deliberately vulnerable Linux kernel modules for practicing Linux kernel exploit development.
 
-[drills-exploits](drills-exploits] - Example exploits for [drills](drills/).
+[drills-exploits](drills-exploits) - Example exploits for [drills](drills/).
 
 
