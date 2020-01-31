@@ -292,4 +292,10 @@ Before running the exploit let's make sure that other kernel/hardware protection
 # on kernels 4.15+ PTI (page tables isolation) needs to be disabled (pti=off kernel parameter), because with PTI in kernel context userland pages are mapped as non-executable
 ```
 
+### Protection mechanism analysis
+
+Bypasses:
+
+* https://bugs.chromium.org/p/project-zero/issues/detail?id=1792&desc=2
+
 ### Associated vulnerabilities
