@@ -71,7 +71,9 @@ config LOCK_DOWN_KERNEL_FORCE_CONFIDENTIALITY
 
 ### Protection mechanism analysis
 
-TBD
+Bypasses:
+
+* https://github.com/xairy/unlockdown
 
 ### Associated vulnerabilities
 
