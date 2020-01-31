@@ -55,7 +55,9 @@ nokaslr     [KNL]
 
 ### Protection mechanism analysis
 
-TBD
+Bypasses:
+
+* https://github.com/bcoles/kasld
 
 ### Associated vulnerabilities
 
