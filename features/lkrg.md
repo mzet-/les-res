@@ -16,7 +16,9 @@ For more information, see: [LKRG [Openwall Community Wiki]](https://openwall.inf
 
 ### Protection mechanism analysis
 
-TBD
+Bypasses:
+
+* https://github.com/milabs/lkrg-bypass
 
 ### Associated vulnerabilities
 
