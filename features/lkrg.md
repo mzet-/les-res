@@ -12,7 +12,10 @@ However, LKRG can be hidden using the `lkrg.hide=1` sysctl parameter.
 
 In the event that LKRG is hidden, it's still possible to detect the module by checking for the presence of the associated sysctl parameters with: `test -d /proc/sys/lkrg && echo true`.
 
-For more information, see: [LKRG [Openwall Community Wiki]](https://openwall.info/wiki/p_lkrg/Main)
+For more information, see:
+
+* [LKRG [Openwall Community Wiki]](https://openwall.info/wiki/p_lkrg/Main)
+* [Linux Kernel Runtime Guard (LKRG) in a nutshell (OSTconf 2020)](https://www.openwall.com/presentations/OSTconf2020-LKRG-In-A-Nutshell/)
 
 ### Protection mechanism analysis
 
